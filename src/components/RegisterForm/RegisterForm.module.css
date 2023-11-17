@@ -1,0 +1,29 @@
+.form {
+  width: 320px;
+}
+
+.label {
+  color: rgb(145, 122, 122);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.registerBtn {
+  margin-left: 15px;
+  padding: 5px;
+  width: 80px;
+  cursor: pointer;
+  background-color: rgb(201, 192, 192);
+  border-color: rgb(133, 128, 128);
+  border-radius: 4px;
+  color: rgb(85, 75, 75);
+  transition: background-color 500ms;
+}
+
+.registerBtn:hover {
+  background-color: rgb(145, 122, 122);
+  border-color: rgb(104, 93, 93);
+  color: #fff;
+}
