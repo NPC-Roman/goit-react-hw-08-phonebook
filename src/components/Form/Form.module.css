@@ -1,4 +1,4 @@
-/*.form {
+.form {
   display: flex;
   flex-direction: column;
 
@@ -44,8 +44,8 @@
 .btnForm:hover {
   background-color: #634456;
   color: #fff;
-}*/
-
+}
+/*
 .form {
   display: flex;
   flex-direction: column;
@@ -89,3 +89,4 @@
   border-color: rgb(104, 93, 93);
   color: #fff;
 }
+*/
