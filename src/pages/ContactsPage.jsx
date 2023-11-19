@@ -36,12 +36,7 @@ export default function ContactsPage() {
       {isLoading && <SpinnerDotted color="#36d7b7" />}
       <Contacts />
 
-      {/* <Filter />
-      {isLoading && !error && <SpinnerDotted color="#36d7b7" />}
-      <Contacts />
-
-      <div>{isLoading && 'Request in progress...'}</div>
-      <Contacts /> */}
+      {}
     </>
   );
 }
