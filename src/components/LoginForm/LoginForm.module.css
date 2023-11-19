@@ -3,7 +3,7 @@
 }
 
 .label {
-  color: rgb(145, 122, 122);
+  color: black;
   font-weight: bold;
   display: flex;
   flex-direction: column;
