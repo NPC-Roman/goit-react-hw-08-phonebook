@@ -26,7 +26,7 @@ export default function ContactsPage() {
         style={{
           marginTop: '25px',
           textAlign: 'center',
-          color: 'rgb(145, 122, 122)',
+          color: 'rgb(0,0,0)',
         }}
       >
         Phonebook
