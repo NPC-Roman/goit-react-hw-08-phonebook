@@ -61,11 +61,6 @@ import { refreshUser } from 'redux/auth/operations';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
 
-// import { SpinnerDotted } from 'spinners-react';
-// import Contacts from './Contacts/Contacts';
-// import Filter from './Filter/Filter';
-// import Form from './Form';
-
 const App = () => {
   const dispatch = useDispatch();
   const { isRefreshing } = useAuth();
@@ -110,21 +105,6 @@ const App = () => {
         <ToastContainer />
       </>
     )
-
-    // {/* <h1
-    //   style={{
-    //     marginTop: '25px',
-    //     textAlign: 'center',
-    //     color: 'rgb(145, 122, 122)',
-    //   }}
-    // >
-    //   Phonebook
-    // </h1>
-    // <Form />
-    // <Filter />
-    // {isLoading && !error && <SpinnerDotted color="#36d7b7" />}
-    // <Contacts />
-    // <ToastContainer /> */}
   );
 };
 
