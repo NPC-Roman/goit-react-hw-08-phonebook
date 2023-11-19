@@ -1,4 +1,4 @@
-/*.contactList {
+.contactList {
   width: 600px;
   margin: 0 auto;
 
@@ -29,8 +29,8 @@
 .btnContactList:hover {
   background-color: #634456;
   color: #fff;
-}*/
-
+}
+/*
 .contactList {
   list-style: none;
   width: 520px;
@@ -61,4 +61,4 @@
   background-color: rgb(145, 122, 122);
   border-color: rgb(104, 93, 93);
   color: #fff;
-}
+}*/
