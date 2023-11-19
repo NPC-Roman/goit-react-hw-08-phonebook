@@ -1,4 +1,4 @@
-/*@import-normalize; 
+@import-normalize;
 
 body {
   background-color: #63b346;
@@ -16,9 +16,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}*/
+}
 
-@import-normalize; /* bring in normalize.css styles */
+/*@import-normalize; /* bring in normalize.css styles */ /*
 
 body {
   background-color: rgb(230, 224, 224);
@@ -33,4 +33,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+}*/
