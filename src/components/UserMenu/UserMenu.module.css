@@ -5,20 +5,22 @@
 }
 
 .username {
+  color: #000000;
   font-weight: 700;
-  color: black;
 }
 
 .logoutBtn {
   margin-left: 15px;
   padding: 5px;
   width: 80px;
-  cursor: pointer;
+
+  color: #000000;
   background-color: rgb(201, 192, 192);
+  transition: background-color 500ms;
   border-color: rgb(133, 128, 128);
   border-radius: 4px;
-  color: rgb(85, 75, 75);
-  transition: background-color 500ms;
+
+  cursor: pointer;
 }
 
 .logoutBtn:hover {

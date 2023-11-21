@@ -3,27 +3,32 @@
 }
 
 .label {
-  color: black;
-  font-weight: bold;
   display: flex;
   flex-direction: column;
+
   margin-bottom: 15px;
+
+  color: black;
+  font-weight: bold;
 }
 
 .loginBtn {
+  width: 80px;
+
   margin-left: 15px;
   padding: 5px;
-  width: 80px;
-  cursor: pointer;
+
+  color: black;
   background-color: rgb(201, 192, 192);
+  transition: background-color 500ms;
   border-color: rgb(133, 128, 128);
   border-radius: 4px;
-  color: black;
-  transition: background-color 500ms;
+
+  cursor: pointer;
 }
 
 .loginBtn:hover {
+  color: #fff;
   background-color: rgb(145, 122, 122);
   border-color: rgb(104, 93, 93);
-  color: #fff;
 }
