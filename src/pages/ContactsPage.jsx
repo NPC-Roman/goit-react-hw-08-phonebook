@@ -36,7 +36,7 @@ export default function ContactsPage() {
       {isLoading && <SpinnerDotted color="#36d7b7" />}
       <Contacts />
 
-      {}
+      {/*Hello World*/}
     </>
   );
 }
